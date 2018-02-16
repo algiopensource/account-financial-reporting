@@ -3,21 +3,20 @@
 # * account_financial_report_webkit_xls
 # 
 # Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2016
-# Viktoras Norkus <viktoras@bmx.lt>, 2018
+# lfreeke <lfreeke@therp.nl>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-10-13 22:11+0000\n"
-"PO-Revision-Date: 2017-10-13 22:11+0000\n"
-"Last-Translator: Viktoras Norkus <viktoras@bmx.lt>, 2018\n"
-"Language-Team: Lithuanian (https://www.transifex.com/oca/teams/23907/lt/)\n"
+"POT-Creation-Date: 2017-04-27 17:33+0000\n"
+"PO-Revision-Date: 2017-04-27 17:33+0000\n"
+"Last-Translator: lfreeke <lfreeke@therp.nl>, 2017\n"
+"Language-Team: Dutch (https://www.transifex.com/oca/teams/23907/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: lt\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:85
@@ -33,20 +32,20 @@ msgstr ""
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:190
 #, python-format
 msgid "% Difference"
-msgstr "% Skirtumas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:148
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:155
 #, python-format
 msgid "Account"
-msgstr "Sąskaita"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:152
 #, python-format
 msgid "Account / Partner Name"
-msgstr "Sąskaitos / Partnerio pavadinimas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:82
@@ -56,7 +55,7 @@ msgstr "Sąskaitos / Partnerio pavadinimas"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:61
 #, python-format
 msgid "Accounts Filter"
-msgstr "Sąskaitų filtras"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:111
@@ -64,14 +63,14 @@ msgstr "Sąskaitų filtras"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:80
 #, python-format
 msgid "All"
-msgstr "Visi"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:166
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:168
 #, python-format
 msgid "Balance"
-msgstr "Balansas"
+msgstr "Saldo"
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:168
@@ -80,14 +79,14 @@ msgstr "Balansas"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:178
 #, python-format
 msgid "Balance %s"
-msgstr "Balansas %s"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:181
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:183
 #, python-format
 msgid "Balance C%s"
-msgstr "Balansas C%s"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:78
@@ -97,25 +96,25 @@ msgstr "Balansas C%s"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:67
 #, python-format
 msgid "Chart of Account"
-msgstr "Sąskaitų planas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/open_invoices_xls.py:146
 #, python-format
 msgid "Clearance Date"
-msgstr "Sąskaitų analizės Data"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:154
 #, python-format
 msgid "Code"
-msgstr "Kodas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:153
 #, python-format
 msgid "Code / Ref"
-msgstr "Kodas / Nuoroda"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:118
@@ -138,7 +137,7 @@ msgstr ""
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:31
 #, python-format
 msgid "Computed"
-msgstr "Apskaičiuota"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:153
@@ -154,7 +153,7 @@ msgstr ""
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:163
 #, python-format
 msgid "Credit"
-msgstr "Kreditas"
+msgstr "Credit"
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:157
@@ -162,7 +161,7 @@ msgstr "Kreditas"
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:173
 #, python-format
 msgid "Cumul. Bal."
-msgstr "Kaup. Bal."
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:306
@@ -170,7 +169,7 @@ msgstr "Kaup. Bal."
 #: code:addons/account_financial_report_webkit_xls/report/open_invoices_xls.py:681
 #, python-format
 msgid "Cumulated Balance on Account"
-msgstr "Sąskaitos kaupiamasis balansas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/open_invoices_xls.py:468
@@ -179,7 +178,7 @@ msgstr "Sąskaitos kaupiamasis balansas"
 #: code:addons/account_financial_report_webkit_xls/report/open_invoices_xls.py:659
 #, python-format
 msgid "Cumulated Balance on Partner"
-msgstr "Partnerio kaupiamasis balansas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:413
@@ -200,7 +199,7 @@ msgstr ""
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:180
 #, python-format
 msgid "Curr."
-msgstr "Dab."
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:162
@@ -214,14 +213,14 @@ msgstr ""
 #: code:addons/account_financial_report_webkit_xls/report/open_invoices_xls.py:228
 #, python-format
 msgid "Curr. Balance"
-msgstr "Dab. balansas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/open_invoices_xls.py:181
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:111
 #, python-format
 msgid "Custom Filter"
-msgstr "Sukurtas filtras"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:143
@@ -229,7 +228,7 @@ msgstr "Sukurtas filtras"
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:163
 #, python-format
 msgid "Date"
-msgstr "Data"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:81
@@ -241,7 +240,7 @@ msgstr "Data"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:121
 #, python-format
 msgid "Dates Filter"
-msgstr "Datos filtras"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:154
@@ -251,20 +250,20 @@ msgstr "Datos filtras"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:162
 #, python-format
 msgid "Debit"
-msgstr "Debetas"
+msgstr "Debit"
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:185
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:187
 #, python-format
 msgid "Difference"
-msgstr "Skirtumas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/open_invoices_xls.py:209
 #, python-format
 msgid "Due Date"
-msgstr "Numatyta data"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:145
@@ -272,7 +271,7 @@ msgstr "Numatyta data"
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:165
 #, python-format
 msgid "Entry"
-msgstr "Įrašas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: view:general.ledger.webkit:account_financial_report_webkit_xls.general_ledger_webkit_xls_wizard_view
@@ -293,7 +292,7 @@ msgstr ""
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:130
 #, python-format
 msgid "Fiscal Year"
-msgstr "Fiskaliniai Metai"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:98
@@ -308,7 +307,7 @@ msgstr ""
 #. module: account_financial_report_webkit_xls
 #: model:ir.model,name:account_financial_report_webkit_xls.model_general_ledger_webkit
 msgid "General Ledger Report"
-msgstr "Didžiosios Knygos ataskaita"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:84
@@ -323,7 +322,7 @@ msgstr "Didžiosios Knygos ataskaita"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:160
 #, python-format
 msgid "Initial Balance"
-msgstr "Pradinis balansas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:146
@@ -331,7 +330,7 @@ msgstr "Pradinis balansas"
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:166
 #, python-format
 msgid "Journal"
-msgstr "Žurnalas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:151
@@ -339,7 +338,7 @@ msgstr "Žurnalas"
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:168
 #, python-format
 msgid "Label"
-msgstr "Etiketė"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:51
@@ -348,13 +347,13 @@ msgstr "Etiketė"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:33
 #, python-format
 msgid "No"
-msgstr "Nėra"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:229
 #, python-format
 msgid "No Partner"
-msgstr "Nėra partnerio"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/open_invoices_xls.py:246
@@ -366,7 +365,7 @@ msgstr ""
 #. module: account_financial_report_webkit_xls
 #: model:ir.model,name:account_financial_report_webkit_xls.model_open_invoices_webkit
 msgid "Open Invoices Report"
-msgstr "Atidarytų S/F ataskaita"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:50
@@ -375,7 +374,7 @@ msgstr "Atidarytų S/F ataskaita"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:32
 #, python-format
 msgid "Opening Entries"
-msgstr "Atidaromieji įrašai"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:149
@@ -383,23 +382,23 @@ msgstr "Atidaromieji įrašai"
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:167
 #, python-format
 msgid "Partner"
-msgstr "Partneris"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: model:ir.model,name:account_financial_report_webkit_xls.model_partner_balance_webkit
 msgid "Partner Balance Report"
-msgstr "Partnerio balanso ataskaita"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: model:ir.model,name:account_financial_report_webkit_xls.model_partners_ledger_webkit
 msgid "Partner Ledger Report"
-msgstr "Partnerio DK ataskaita"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:55
 #, python-format
 msgid "Partners Filter"
-msgstr "Partnerių filtras"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:144
@@ -407,7 +406,7 @@ msgstr "Partnerių filtras"
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:164
 #, python-format
 msgid "Period"
-msgstr "Periodas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:81
@@ -419,7 +418,7 @@ msgstr "Periodas"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:126
 #, python-format
 msgid "Periods Filter"
-msgstr "Periodų filtras"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: view:general.ledger.webkit:account_financial_report_webkit_xls.general_ledger_webkit_xls_wizard_view
@@ -428,20 +427,20 @@ msgstr "Periodų filtras"
 #: view:partners.ledger.webkit:account_financial_report_webkit_xls.partner_ledger_webkit_xls_wizard_view
 #: view:trial.balance.webkit:account_financial_report_webkit_xls.trial_balance_webkit_xls_wizard_view
 msgid "Print"
-msgstr "Spausdinti"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/open_invoices_xls.py:208
 #: code:addons/account_financial_report_webkit_xls/report/partner_ledger_xls.py:169
 #, python-format
 msgid "Rec."
-msgstr "Gaut."
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:150
 #, python-format
 msgid "Reference"
-msgstr "Nuoroda"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/general_ledger_xls.py:83
@@ -451,7 +450,7 @@ msgstr "Nuoroda"
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:64
 #, python-format
 msgid "Target Moves"
-msgstr "Judėjimas"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: view:general.ledger.webkit:account_financial_report_webkit_xls.general_ledger_webkit_xls_wizard_view
@@ -502,7 +501,7 @@ msgstr ""
 #. module: account_financial_report_webkit_xls
 #: model:ir.model,name:account_financial_report_webkit_xls.model_trial_balance_webkit
 msgid "Trial Balance Report"
-msgstr "Bandomojo balanso ataskaita"
+msgstr ""
 
 #. module: account_financial_report_webkit_xls
 #: code:addons/account_financial_report_webkit_xls/report/trial_balance_xls.py:192
@@ -514,4 +513,4 @@ msgstr ""
 #: code:addons/account_financial_report_webkit_xls/report/partners_balance_xls.py:347
 #, python-format
 msgid "Unallocated"
-msgstr "Nepriskirta"
+msgstr ""
