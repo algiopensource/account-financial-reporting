@@ -4,11 +4,12 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 import time
-from . import abstract_test
-from odoo.tests.common import TransactionCase
+
+from odoo.tests import common
+from . import abstract_test_foreign_currency as a_t_f_c
 
 
-class TestGeneralLedger(abstract_test.AbstractTest):
+class TestGeneralLedger(a_t_f_c.AbstractTestForeignCurrency):
     """
         Technical tests for General Ledger Report.
     """
@@ -33,8 +34,9 @@ class TestGeneralLedger(abstract_test.AbstractTest):
         return {
             'date_from': time.strftime('%Y-01-01'),
             'date_to': time.strftime('%Y-12-31'),
-            'company_id': self.env.ref('base.main_company').id,
+            'company_id': self.company.id,
             'fy_start_date': time.strftime('%Y-01-01'),
+            'foreign_currency': True,
         }
 
     def _getAdditionalFiltersToBeTested(self):
@@ -53,7 +55,9 @@ class TestGeneralLedger(abstract_test.AbstractTest):
         ]
 
 
-class TestGeneralLedgerReport(TransactionCase):
+@common.at_install(False)
+@common.post_install(True)
+class TestGeneralLedgerReport(common.TransactionCase):
 
     def setUp(self):
         super(TestGeneralLedgerReport, self).setUp()
@@ -369,9 +373,9 @@ class TestGeneralLedgerReport(TransactionCase):
         self.assertEqual(lines['unaffected'].initial_debit, 0)
         self.assertEqual(lines['unaffected'].initial_credit, 0)
         self.assertEqual(lines['unaffected'].initial_balance, -1000)
-        self.assertEqual(lines['unaffected'].final_debit, 1000)
+        self.assertEqual(lines['unaffected'].final_debit, 0)
         self.assertEqual(lines['unaffected'].final_credit, 0)
-        self.assertEqual(lines['unaffected'].final_balance, 0)
+        self.assertEqual(lines['unaffected'].final_balance, -1000)
 
         # Add another move at the end day of fiscal year
         # to check that it correctly used on report
@@ -393,9 +397,9 @@ class TestGeneralLedgerReport(TransactionCase):
         self.assertEqual(lines['unaffected'].initial_debit, 0)
         self.assertEqual(lines['unaffected'].initial_credit, 0)
         self.assertEqual(lines['unaffected'].initial_balance, -1000)
-        self.assertEqual(lines['unaffected'].final_debit, 1000)
-        self.assertEqual(lines['unaffected'].final_credit, 3000)
-        self.assertEqual(lines['unaffected'].final_balance, -3000)
+        self.assertEqual(lines['unaffected'].final_debit, 0)
+        self.assertEqual(lines['unaffected'].final_credit, 0)
+        self.assertEqual(lines['unaffected'].final_balance, -4000)
 
     def test_04_unaffected_account_balance_2_years(self):
         # Generate the general ledger line
