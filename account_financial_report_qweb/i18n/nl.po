@@ -1,19 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * account_financial_report_qweb
+#	* account_financial_report_qweb
 #
-# Translators:
-# Peter Hageman <hageman.p@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 10.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-29 12:15+0000\n"
-"PO-Revision-Date: 2018-08-15 12:11+0000\n"
+"PO-Revision-Date: 2018-08-23 18:56+0000\n"
 "Last-Translator: Stefan Rijnhart (Opener) <stefan@opener.am>\n"
-"Language-Team: Dutch (Netherlands) (https://www.transifex.com/oca/teams/"
-"23907/nl_NL/)\n"
-"Language: nl_NL\n"
+"Language-Team: none\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
@@ -156,8 +152,7 @@ msgstr "90 dagen vervallen"
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_aged_partner_balance_move_lines
-msgid ""
-"Age ≤ 120\n"
+msgid "Age ≤ 120\n"
 "                        d."
 msgstr ""
 "Vv. ≤ 120\n"
@@ -172,8 +167,7 @@ msgstr "Vv. ≤ 120 d."
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_aged_partner_balance_move_lines
-msgid ""
-"Age ≤ 30\n"
+msgid "Age ≤ 30\n"
 "                        d."
 msgstr ""
 "Vv. ≤ 30\n"
@@ -188,8 +182,7 @@ msgstr "Vv. ≤ 30 d."
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_aged_partner_balance_move_lines
-msgid ""
-"Age ≤ 60\n"
+msgid "Age ≤ 60\n"
 "                        d."
 msgstr ""
 "Vv. ≤ 60\n"
@@ -204,8 +197,7 @@ msgstr "Vv. ≤ 60 d."
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_aged_partner_balance_move_lines
-msgid ""
-"Age ≤ 90\n"
+msgid "Age ≤ 90\n"
 "                        d."
 msgstr ""
 "Vv. ≤ 90\n"
@@ -404,7 +396,7 @@ msgid "Centralized"
 msgstr "Gecentraliseerd"
 
 #. module: account_financial_report_qweb
-#: code:addons/account_financial_report_qweb/report/general_ledger.py:1217
+#: code:addons/account_financial_report_qweb/report/general_ledger.py:1234
 #, python-format
 msgid "Centralized Entries"
 msgstr "Centralisatieboekingen"
@@ -451,8 +443,7 @@ msgstr "Bedrijf-id"
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_general_ledger_lines
-msgid ""
-"Cost\n"
+msgid "Cost\n"
 "                            center"
 msgstr "Kostenplaats"
 
@@ -780,6 +771,7 @@ msgstr "Omschrijving"
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_open_items_qweb_display_name
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_open_items_qweb_move_line_display_name
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_open_items_qweb_partner_display_name
+#: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_qweb_abstract_display_name
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb_account_display_name
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb_display_name
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb_partner_display_name
@@ -791,10 +783,7 @@ msgstr "Displaynaam"
 #: model:ir.model.fields,help:account_financial_report_qweb.field_general_ledger_report_wizard_foreign_currency
 #: model:ir.model.fields,help:account_financial_report_qweb.field_open_items_report_wizard_foreign_currency
 #: model:ir.model.fields,help:account_financial_report_qweb.field_trial_balance_report_wizard_foreign_currency
-msgid ""
-"Display foreign currency for move lines, unless account currency is not "
-"setup through chart of accounts will display initial and final balance in "
-"that currency."
+msgid "Display foreign currency for move lines, unless account currency is not setup through chart of accounts will display initial and final balance in that currency."
 msgstr ""
 "Toon vreemde valuta van de boekingen, tenzij er geen valuta is ingesteld ook "
 "al worden grootboeksaldi getoond in deze valuta."
@@ -802,8 +791,7 @@ msgstr ""
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_aged_partner_balance_move_lines
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_open_items_qweb_lines
-msgid ""
-"Due\n"
+msgid "Due\n"
 "                        date"
 msgstr "Vervaldatum"
 
@@ -821,8 +809,7 @@ msgstr "Einddatum"
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_open_items_qweb_ending_cumul
-msgid ""
-"Ending\n"
+msgid "Ending\n"
 "                        balance"
 msgstr "Eindsaldo"
 
@@ -916,6 +903,17 @@ msgstr "Kostenplaatsenfilter"
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_general_ledger_report_wizard_cost_center_ids
 msgid "Filter cost centers"
 msgstr "Kostenplaatsenfilter"
+
+#. module: account_financial_report_qweb
+#: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_general_ledger_qweb_filter_journal_ids
+#: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb_filter_journal_ids
+msgid "Filter journal ids"
+msgstr "Filterjournalen"
+
+#. module: account_financial_report_qweb
+#: model:ir.model.fields,field_description:account_financial_report_qweb.field_general_ledger_report_wizard_journal_ids
+msgid "Filter journals"
+msgstr "Filterjournalen"
 
 #. module: account_financial_report_qweb
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_aged_partner_balance_qweb_filter_partner_ids
@@ -1040,9 +1038,7 @@ msgstr "Grootboek in XLSX"
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.general_ledger_wizard
-msgid ""
-"General Ledger can be computed only if selected company have only one "
-"unaffected earnings account."
+msgid "General Ledger can be computed only if selected company have only one unaffected earnings account."
 msgstr ""
 "Het grootboek kan alleen uitgedraaid worden als er precies één onverdeelde-"
 "winstrekening is."
@@ -1111,6 +1107,7 @@ msgstr "Verberg rekeningen met eindsaldo 0"
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_open_items_qweb_id
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_open_items_qweb_move_line_id
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_open_items_qweb_partner_id
+#: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_qweb_abstract_id
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb_account_id
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb_id
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb_partner_id
@@ -1120,17 +1117,14 @@ msgstr "ID"
 
 #. module: account_financial_report_qweb
 #: model:ir.model.fields,help:account_financial_report_qweb.field_account_account_centralized
-msgid ""
-"If flagged, no details will be displayed in the General Ledger report (the "
-"webkit one only), only centralized amounts per period."
+msgid "If flagged, no details will be displayed in the General Ledger report (the webkit one only), only centralized amounts per period."
 msgstr ""
 "Indien actief worden er geen details getoond in de grootboekrapportage, maar "
 "alleen de gecentraliseerde bedragen per periode."
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_trial_balance_qweb_lines_header
-msgid ""
-"Initial\n"
+msgid "Initial\n"
 "                    balance"
 msgstr "Beginsaldo"
 
@@ -1221,6 +1215,7 @@ msgstr "Dagboek-id"
 
 #. module: account_financial_report_qweb
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_journal_qweb_journal_ids
+#: model:ir.model.fields,field_description:account_financial_report_qweb.field_trial_balance_report_wizard_journal_ids
 msgid "Journal ids"
 msgstr "Dagboek-ids"
 
@@ -1264,6 +1259,7 @@ msgstr "Label"
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_open_items_qweb_account___last_update
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_open_items_qweb_move_line___last_update
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_open_items_qweb_partner___last_update
+#: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_qweb_abstract___last_update
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb___last_update
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb_account___last_update
 #: model:ir.model.fields,field_description:account_financial_report_qweb.field_report_trial_balance_qweb_partner___last_update
@@ -1415,10 +1411,10 @@ msgid "No group"
 msgstr "Geen"
 
 #. module: account_financial_report_qweb
-#: code:addons/account_financial_report_qweb/report/general_ledger.py:680
-#: code:addons/account_financial_report_qweb/report/general_ledger.py:977
-#: code:addons/account_financial_report_qweb/report/open_items.py:302
-#: code:addons/account_financial_report_qweb/report/open_items.py:551
+#: code:addons/account_financial_report_qweb/report/general_ledger.py:685
+#: code:addons/account_financial_report_qweb/report/general_ledger.py:982
+#: code:addons/account_financial_report_qweb/report/open_items.py:306
+#: code:addons/account_financial_report_qweb/report/open_items.py:555
 #, python-format
 msgid "No partner allocated"
 msgstr "Zonder relatie"
@@ -1526,8 +1522,7 @@ msgstr "Relatie"
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_aged_partner_balance_partner_ending_cumul
-msgid ""
-"Partner\n"
+msgid "Partner\n"
 "                    cumul aged balance"
 msgstr "Cumul. vv. relatiesaldo"
 
@@ -1645,8 +1640,7 @@ msgstr "Alleen debiteurenrekeningen"
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_aged_partner_balance_move_lines
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_general_ledger_lines
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.report_open_items_qweb_lines
-msgid ""
-"Ref -\n"
+msgid "Ref -\n"
 "                        Label"
 msgstr "Ref/label"
 
@@ -1936,9 +1930,7 @@ msgstr "Proefbalans in XLSX"
 
 #. module: account_financial_report_qweb
 #: model:ir.ui.view,arch_db:account_financial_report_qweb.trial_balance_wizard
-msgid ""
-"Trial Balance can be computed only if selected company have only one "
-"unaffected earnings account."
+msgid "Trial Balance can be computed only if selected company have only one unaffected earnings account."
 msgstr ""
 "Proefbalans kan alleen gerapporteerd worden als er precies één onverdeelde-"
 "winstrekening is."
@@ -1952,10 +1944,7 @@ msgstr "Onverdeelde-winstrekening"
 #: model:ir.model.fields,help:account_financial_report_qweb.field_general_ledger_report_wizard_hide_account_balance_at_0
 #: model:ir.model.fields,help:account_financial_report_qweb.field_open_items_report_wizard_hide_account_balance_at_0
 #: model:ir.model.fields,help:account_financial_report_qweb.field_trial_balance_report_wizard_hide_account_balance_at_0
-msgid ""
-"Use this filter to hide an account or a partner with an ending balance at 0. "
-"If partners are filtered, debits and credits totals will not match the trial "
-"balance."
+msgid "Use this filter to hide an account or a partner with an ending balance at 0. If partners are filtered, debits and credits totals will not match the trial balance."
 msgstr ""
 "Verberg relaties met saldo 0. Hierdoor zullen de totalen van de kolommen "
 "debet en credit niet meer correct zijn in de proefbalans."
@@ -2098,6 +2087,11 @@ msgstr "report_open_items_qweb_move_line"
 #: model:ir.model,name:account_financial_report_qweb.model_report_open_items_qweb_partner
 msgid "report_open_items_qweb_partner"
 msgstr "report_open_items_qweb_partner"
+
+#. module: account_financial_report_qweb
+#: model:ir.model,name:account_financial_report_qweb.model_report_qweb_abstract
+msgid "report_qweb_abstract"
+msgstr "report_qweb_abstract"
 
 #. module: account_financial_report_qweb
 #: model:ir.model,name:account_financial_report_qweb.model_report_trial_balance_qweb
